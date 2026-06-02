@@ -1,0 +1,28 @@
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Models & Arrays
+*.keras
+*.h5
+*.hdf5
+*.joblib
+*.npy
+*.npz
+
+# Datasets and Archives
+# Ігноруємо папку archive та будь-які CSV файли
+archive/
+lab1/archive/
+*.csv
+
+# Logs and outputs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
